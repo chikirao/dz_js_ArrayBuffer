@@ -8,7 +8,7 @@ export default class Character {
     }
 
     get stoned() {
-          return this.stonedEffect;
+        return this.stonedEffect;
     }
 
     set stoned(value) {
