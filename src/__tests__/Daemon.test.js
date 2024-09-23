@@ -10,5 +10,5 @@ test('attack with stoned effect', () => {
     const daemon = new Daemon('Sauron', 100);
     daemon.distance = 3;
     daemon.stoned = true;
-    expect(daemon.attack).toBe(75);
+    expect(daemon.attack).toBe(72);
 });
